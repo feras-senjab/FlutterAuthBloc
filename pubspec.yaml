@@ -1,0 +1,36 @@
+name: flutter_auth_bloc
+description: "A Flutter starter project that integrates Firebase Authentication and Firestore CRUD operations, utilizing flutter_bloc for robust state management. Ideal for building scalable and maintainable Flutter applications with user authentication."
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.2 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+  sizer: ^2.0.15
+  flutter_bloc: ^8.1.6
+  equatable:
+  flutter_easyloading: ^3.0.5
+  form_validators:
+    path: packages/form_validators
+  auth_repository:
+    path: packages/auth_repository
+  firebase_repository:
+    path: packages/firebase_repository
+  firebase_core:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+
+flutter:
+  uses-material-design: true
