@@ -1,4 +1,3 @@
-Copy code
 # FlutterAuthBloc
 
 FlutterAuthBloc is a Flutter starter project designed to kickstart your app development with essential features for modern applications. This project showcases:
